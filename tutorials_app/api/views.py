@@ -10,7 +10,7 @@ class TutorialList(generics.ListAPIView):
     def get_queryset(self):
         return Tutorial.objects.filter(is_published=True)
     filter_backends = [DjangoFilterBackend]
-    filterset_fields = ['name', 'is_published']
+    filterset_fields = ['name', 'title']
     
  
  
