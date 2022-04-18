@@ -82,10 +82,10 @@ WSGI_APPLICATION = 'tutorials.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE':'django.db.backends.postgresql_psycopg2',
-        'NAME':'tutorial',                      
-        'USER':'postgres',
-        'PASSWORD':'ghassan123321',
-        'HOST':'localhost',
+        'NAME':'tutorial_project_db',
+        'USER':'ghassan',
+        'PASSWORD':'Logicteca123$$',
+        'HOST':'tutorial-db.cqwuftqryfic.us-east-1.rds.amazonaws.com',
         'PORT':'5432',
         }
     }
