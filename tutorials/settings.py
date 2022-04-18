@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-u2e=z!e3sj-yshpwe3(%rd+uci24!^w0x7h^n27%bw1a*e=6p2
 DEBUG = True
 
 
-ALLOWED_HOSTS = ["ec2-44-203-204-169.compute-1.amazonaws.com"]
+ALLOWED_HOSTS = ["*"]
 
 
 
@@ -81,10 +81,14 @@ WSGI_APPLICATION = 'tutorials.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE':'django.db.backends.postgresql_psycopg2',
+        'NAME':'tutorial',                      
+        'USER':'postgres',
+        'PASSWORD':'ghassan123321',
+        'HOST':'localhost',
+        'PORT':'5432',
+        }
     }
-}
 
 
 # Password validation
