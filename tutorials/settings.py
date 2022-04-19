@@ -90,7 +90,7 @@ DATABASES = {
     }
 }  
 
-:
+
 
 
 #naPassword validatio
