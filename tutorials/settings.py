@@ -87,11 +87,12 @@ DATABASES = {
         'PASSWORD':'Logicteca123$$',
         'HOST':'tutorial-db.cqwuftqryfic.us-east-1.rds.amazonaws.com',
         'PORT':'5432',
-        }
     }
+}  
 
 
-# Password validation
+#
+ naPassword validation
 # https://docs.djangoproject.com/en/4.0/ref/settings/#auth-password-validators
 
 AUTH_PASSWORD_VALIDATORS = [
